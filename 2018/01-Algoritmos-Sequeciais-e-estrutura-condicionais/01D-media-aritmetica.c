@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 
 
@@ -13,7 +14,8 @@ int main() {
     printf("Insira a quarta nota: ");
     scanf("%d",&nota4);
     resultado = (nota1+nota2+nota3+nota4)/ 4;
-    printf("Sua media foi: %d",resultado);
+    printf("Sua media foi: %d \n",resultado);
+    system("PAUSE");
 
 
     return 0;
