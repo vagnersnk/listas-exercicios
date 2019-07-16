@@ -8,11 +8,13 @@ int main() {
  scanf("%d",&entrada);
  if (entrada < 0){
      printf("Valor invalido. Insira um numero inteiro");
+     system("PAUSE");
      return 0;
  }else
  {
      saida = entrada * 2;
-     printf("O dobro do numero %d resulta em : %d ",entrada,saida);
+     printf("O dobro do numero %d resulta em : %d \n",entrada,saida);
+     system("PAUSE");
      return 0;
 
  }
