@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 
 
@@ -14,7 +15,8 @@ int main() {
     printf("Insira a ponto y2 : ");
     scanf("%f",&y2);
     resultado = sqrt((pow(x1-x2,2))+(pow(y1-y2,2)));
-    printf("A distancia entre os ponto foi : %0.1f",resultado);
+    printf("A distancia entre os ponto foi : %0.1f \n",resultado);
+    system("PAUSE");
 
 
 
