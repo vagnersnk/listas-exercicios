@@ -13,7 +13,5 @@ int main() {
     printf("O comprimento da esfera foi: %0.2f metros \n",resultado);
     system("PAUSE");
 
-
-    system("PAUSE");
     return 0;
 }
