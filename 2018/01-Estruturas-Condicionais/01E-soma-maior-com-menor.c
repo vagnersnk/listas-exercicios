@@ -5,7 +5,7 @@
 int main (void)
 {
     int a,b,c;
-    printf("insira tres valor:  ");
+    printf("insira tres valores:  ");
     scanf("%d%d%d",&a,&b,&c);
     if (a > b) {
         if (b > c) {
