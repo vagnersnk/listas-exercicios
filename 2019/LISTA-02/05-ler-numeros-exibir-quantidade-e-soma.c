@@ -10,12 +10,12 @@ int main()
     while(1){
     	scanf("%d",&entrada);
     	if(entrada<0){
-    		printf("quantidade digitada: %d \n soma dos numeros digitados: %d",count,i);
+    		printf("quantidade digitada: %d \n soma dos numeros digitados: %d",count,a);
     		break;
 		}else{
 			count = count + 1;
-			a = a + 1;
-			i = i + a;
+			a = entrada + a;
+		
 			
 		}
     	
