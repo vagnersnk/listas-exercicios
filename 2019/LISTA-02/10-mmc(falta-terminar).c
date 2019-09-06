@@ -1,45 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
 
-int main()
-{
-  //Calculcar o mmc entre dois numeros
-  //DISGRAÇA
-    setlocale(LC_ALL, "Portuguese");
-    int numero1,numero2,mmc,i,j,b=0,h=0;
+int main() {
+   int num1,num2,i,j,div=0,div2=0;
+   printf("Insira dois numeros: ");
+   scanf("%i%i",&num1,&num2);
+   if(num1>num2){
+       for(i=0;i<num1;i++){
+           div = num1*i;
+           //printf("1[%i]\n",div);
+          for(j=0;j<num1;j++){
+               //printf("2[%i]\n",div2);
+               div2= num2*j;
 
-
-    printf("Digite dois valores\n");
-    scanf("%d%d",&numero1,&numero2);
-    mmc = numero1*numero2;
-    if(numero1>numero2){
-        for(i=0;i<mmc;i+=i+numero1){
-          printf("%d\n",i);
-    //      b = b +numero1;
-    //             printf("[%i]multiplos %d\n",numero1,b);
-    //
-    //
-    //   }
-    //       for(i=0;i<mmc;i++){
-    //         h=h+numero2;
-    //          printf("[%i]multiplos %d\n",numero2,h);
-    //
-    //
-    //
-    //
-    //
-    //
-     }
-  }
-    else{
+       }
 
 
+       }if(div = div2){
+           printf("I[%i]\n",div);
+           //break;
+       }
 
-    }
 
+   }
 
-
-
-	return 0;
+    return 0;
 }
