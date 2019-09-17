@@ -20,7 +20,7 @@ int main()
            indice = i;
        }
     }
-    printf("O maior valor [%i] se encontra no indice [%d]",maior,indice+1);
+    printf("O menor valor [%i] se encontra no indice [%d]",maior,indice+1);
 
 
 
