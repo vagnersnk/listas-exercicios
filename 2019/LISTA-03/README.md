@@ -1,5 +1,5 @@
-ALGORITMOS E PROGRAMAÇÃO
-Lista de Exercícios 3 – Arrays - Vetor
+ALGORITMOS E PROGRAMAÇÃO<br>
+Lista de Exercícios 3 – Arrays - Vetor<br>
 1. Escreva um programa que leia 10 números e mostre-os na ordem em que foram lidos.<br>
 2. Escreva um programa que leia 10 números e mostre-os na ordem inversa a que foram
 lidos.<br>
