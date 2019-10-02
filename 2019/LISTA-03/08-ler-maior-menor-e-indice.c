@@ -21,7 +21,7 @@ int main()
             indice1 = i;
         }
         if(vetor[i]<menor){
-            maior = vetor[i];
+            menor = vetor[i];
             indice2 = i;
         }
     }
