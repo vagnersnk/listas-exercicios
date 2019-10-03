@@ -1,0 +1,1 @@
+versões didaticas do exercicios 
