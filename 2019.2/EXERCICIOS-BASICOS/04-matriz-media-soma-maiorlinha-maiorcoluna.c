@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-#define LIN 2
-#define COL 4
+#define LIN 20
+#define COL 10
 
 
 
