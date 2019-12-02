@@ -1,22 +1,22 @@
-01-Leia a idade de 20 pessoas e imprima a maior
+1-Leia a idade de 20 pessoas e imprima a maior
 idade.<br>
-02- Leia a altura de 30 pessoas e imprima as
+2- Leia a altura de 30 pessoas e imprima as
 alturas em ordem decrescente.<br>
 3- Leia a altura e idade de 30 pessoas e informe:<br>
-– A maior idade<br>
-– A menor altura<br>
-– A altura da pessoa mais velha.<br>
-– A idade da pessoa mais baixa.<br>
+a) A maior idade<br>
+b) A menor altura<br>
+c) A altura da pessoa mais velha.<br>
+d) A idade da pessoa mais baixa.<br>
 4- Leia a quantidade de unidades vendidas de 30
 produtos em cada trimestre do ano e informe:<br>
-– O trimestre de maior vendagem.<br>
-– O produto de menor vendagem.<br>
-– O produto/semestre de maior vendagem.<br>
+a) O trimestre de maior vendagem.<br>
+b) O produto de menor vendagem.<br>
+c) O produto/semestre de maior vendagem.<br>
 5- Leia uma matriz 20x10 de inteiros e informe:<br>
-– A soma total dos números.<br>
-– A média geral dos números.<br>
-– O maior valor em cada linha.<br>
-– O maior valor em cada coluna.<br>
+a) A soma total dos números.<br>
+b) A média geral dos números.<br>
+c) O maior valor em cada linha.<br>
+d) O maior valor em cada coluna.<br>
 6- Leia 3 notas de 10 alunos e imprima em ordem
 crescente as médias obtidas.<br>
 7- Gerar e imprimir uma matriz com 5 linhas e 5
