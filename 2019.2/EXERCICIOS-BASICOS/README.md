@@ -43,7 +43,7 @@ d)qual o ano e mês de maior consumo<br>
 
 11- Gerar a matriz transposta de uma matriz 5x5 dada
 pelo usuário (a transposta é obtida permutando-se
-as linhas e as colunas de uma matriz).<12>
+as linhas e as colunas de uma matriz).<br>
 12- Faça uma função que receba duas matrizes A[4][6] e
 B[6][4] e retorna uma matriz C, que seja o produto
 matricial de M por N.<br>
