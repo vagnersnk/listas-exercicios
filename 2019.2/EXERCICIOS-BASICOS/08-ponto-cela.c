@@ -11,8 +11,8 @@ int main() {
 
     for(i=0;i<LIN;i++){
         for(j=0;j<COL;j++){
-          printf(">> [%d][%d]",i,j);
-          scanf("%d",&matrix[i][j]);
+            printf(">> [%d][%d]",i,j);
+            scanf("%d",&matrix[i][j]);
         }
     }
     //print matriz
@@ -36,7 +36,7 @@ int main() {
             maiores[i] = maior;
 
         }
-        }
+    }
     //MAIORES COLUNAS
     maiorcol = matrix[0][0];
     for(j=0;j<COL;j++){
@@ -49,16 +49,16 @@ int main() {
         }
     }
 
-    printf("\n>> IMPRIMINDO MAIOR LINHAS\n");
+
     for(i=0;i<LIN;i++){
-            printf("[%d]\t",maiores[i]);
-        printf("\n");
+        if(maiores[i] > colmax[i]){
+            printf("\n>>PONTO CELA na linha:  -- %d [%d]\n",i,maiores[i]);
+        }
+        if(maiores[i] == colmax[i]){
+            printf("\n>>PONTO CELA na linha:%d -- [%d]\n",i,maiores[i]);
+        }
     }
-    printf("\n>> IMPRIMINDO MAIOR COLUNAS\n");
-    for(i=0;i<LIN;i++){
-        printf("[%d]\t",colmax[i]);
-        printf("\n");
-    }
+
 
 
 
