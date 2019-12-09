@@ -6,7 +6,7 @@
 
 
 int main() {
-    int matrixone[LIN][COL],matrixtwo[LIN][COL],i,j,start;
+    int matrixone[LIN][COL],matrixtwo[LIN][COL],i,j,k,l;
 
     //LER MATRIZ 1
     printf("\n>> INSIRA A PRIMEIRA MATRIZ\n");
@@ -29,16 +29,16 @@ int main() {
 
     for(i=0;i<LIN;i++){
         for(j=0;j<COL;j++){
-            if(matrixone[i][j] == matrixtwo[i][j]){
-                printf("1:[%d] = 2:[%d]\n",matrixone[i][j],matrixtwo[i][j]);
-                break;
+            for(k=0;k<LIN;k++){
+                for(l=0;l<COL;l++){
+                    if(matrixone[i][j] == matrixtwo[k][l]){
+                        printf("[%d] = [%d]\n",matrixone[i][j],matrixtwo[k][l]);
+                        break;
+                }
+              }
             }
-
-
+          }
         }
-     
-
-    }
 
 
 
