@@ -8,14 +8,13 @@
 
 
 int main() {
-    int lista[LIN][COL], i, j, maiortri,menorpro,somaprod,somatrime,maior;
-    int produtos[LIN];
-    int trimestre[COL];
+    float lista[LIN][COL],produtos[LIN],trimestre[COL], maiortri,menorpro,somaprod,somatrime,maior;
+    int i,j;
 
     for (i = 0; i < LIN; i++) {
         for (j = 0; j < COL; j++) {
             printf("[%d][%d]:", i, j);
-            scanf("%d", &lista[i][j]);
+            scanf("%f", &lista[i][j]);
 
         }
     }
@@ -59,9 +58,9 @@ int main() {
     }
 
     printf("\n>> RESULTADOs\n");
-    printf("a) trimestre maior vendagem %d\n",maiortri);
-    printf("b) produto menor vendagem %d\n",menorpro);
-    printf("c) produto/trimestre maior vendagem %d\n",maior);
+    printf("a) trimestre maior vendagem %f\n",maiortri);
+    printf("b) produto menor vendagem %f\n",menorpro);
+    printf("c) produto/trimestre maior vendagem %f\n",maior);
 
     return 0;
 }
