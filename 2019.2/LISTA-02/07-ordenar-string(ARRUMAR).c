@@ -5,30 +5,32 @@
 #define LIM 10
 
 int main() {
-    char string[LIM],stringtwo[LIM],aux[LIM];
+    char nomes[2][LIM],aux[LIM];
     int i,j;
-    puts("Insira a string");
-    gets(string);
-    puts("Insira outra string");
-    gets(stringtwo);
-    if(strcmp(string,stringtwo) == 0){
-        puts("string iguais");
-    }else{
-        for(i=0;i<LIM;i++){
-            for(j=i+1;j<LIM;j++){
-             if(strcmp(string[i],string[j] >0)){
-                 strcpy(aux,string[i]);
-                 strcpy(string[i],string[j]);
-                 strcpy(string[j],aux);
-             }
-
-            }
-        }
-        puts(string);
-
-    }
-
-
+    for(i=0;i<2;i++){
+    	printf(">>Digite o %d nome:\n", i);
+        fflush(stdin);
+        gets(nomes[i]);
+	}
+	if(strcmp(nomes[0],nomes[1]) ==0){
+		puts("string iguais");
+	}else{	
+   
+	   for(i = 0; i < 2; i++){
+			for(j = i+1; j < 2; j++){
+				if(strcmp(nomes[i], nomes[j]) > 0){
+						strcpy(aux, nomes[i]);
+						strcpy(nomes[i], nomes[j]);
+						strcpy(nomes[j], aux);
+					}
+					}
+					}
+	
+			for(i = 0; i < 2; i++){
+			
+				puts(nomes[i]);
+			}
+	}
 
     return 0;
 }
