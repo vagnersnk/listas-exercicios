@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -7,7 +8,7 @@
 
 
 int main() {
-    char nomes[LIM][30],aux[LIM],mat[LIM];
+    char nomes[LIM][30],aux[30],mat[6];
     char matricula[LIM][6];
     int salario[LIM];
     int tempo[LIM];
@@ -37,7 +38,7 @@ int main() {
 		}
 		media = (float)soma/count;
 	}
-	printf(">>media com mais de 20 anos %d<<\n",media);
+	printf(">>media salarias dos funcionarios com mais de 20 anos %d<<\n",media);
 	for(i=0;i<LIM;i++){
 		for(j=i+1;j<LIM;j++){
 			if(tempo[i]>10){
