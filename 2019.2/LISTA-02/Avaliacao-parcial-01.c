@@ -1,8 +1,8 @@
 /*1- leia o título de  10 produtos de uma loja e a quantidade
-*    vendias por cada um deles em um determinado mês. Em seguida informe:
+*    vendidas por cada um deles em um determinado mês. Em seguida informe:
 *         a) A média geral das vendas naqueles mês.
 *         b) O título do produto com menor vendagem.
-*         c) O título dos 5 produtos mais venditos.
+*         c) O título dos 5 produtos mais vendidos.
 *
 */
 

@@ -1,5 +1,5 @@
 /*2- leia o título de  10 produtos de uma loja e a quantidade
-*    vendias por 12 mêses. Em seguida informe:
+*    vendidas por 12 mêses. Em seguida informe:
 *         a) Relação dos títulos dos produtos, ordenados alfabeticamente, com total de vendas do ano.
 *         b) Busca por título do produto, apresentando a respectiva quantidade vendida nos 12 meses e o total geral.
 */
