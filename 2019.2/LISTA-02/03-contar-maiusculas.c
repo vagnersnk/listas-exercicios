@@ -10,7 +10,7 @@ int main() {
     puts("Insira a string");
     gets(string);
     count = 0;
-    for(i=0;i<strlen(string)-1;i++){
+    for(i=0;i<strlen(string);i++){
         if(isupper(string[i])){
             count++;
         }

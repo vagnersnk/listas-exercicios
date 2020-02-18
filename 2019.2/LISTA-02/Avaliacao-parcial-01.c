@@ -60,9 +60,8 @@ int main() {
 		
 	}
 	printf("c) Top %d mais vendidos\n",LIM);
-	for(i=LIM;i>-1;i--){
+	for(i=LIM-1;i>-1;i--){
 		puts(produtos[i]);
-		printf("%f",vendas[i]);
 		
 	}
 	
