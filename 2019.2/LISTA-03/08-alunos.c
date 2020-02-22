@@ -5,7 +5,7 @@
 #include <math.h>
 #include <DOS.H>
 
-#define LIM 2
+#define LIM 3
 #define NOTAS 6
 
 struct Alunos{
@@ -20,7 +20,7 @@ struct Alunos{
 int main() {
 	struct Alunos aln[LIM];
 	char pesquisa[30],tmp[30];
-	int i,k,l,pl,count =0;
+	int i,k,j,l,m=0,pl,count =0;
 	
 	while(1){
 		puts(">>Menu<<\n1-Inserir aluno\n2-Pesquisar Aluno por nome\n3-Pesquisar media por disciplina\n4-Ver top 3 alunos com maior media\n5-Ver codigos das disciplinas\n6-SAIR\n-------------\n");
@@ -34,16 +34,14 @@ int main() {
 				scanf("%d",&aln[count].idade);
 				for(i=0;i<NOTAS;i++){
 					printf(">insira a media: [%d] do aluno %d\n",i,count);
-					fflush(stdin);
-					gets(tmp);
-					aln[count].media[i] = atof(tmp);
+					scanf("%f",&aln[count].media[i]);
 					
 				}
 				
 				count++;
 				sleep(1);
 				system("clear||cls");
-				printf("%f",aln[count].media);
+				
 				
 				break;
 				
@@ -80,13 +78,30 @@ int main() {
 		    		puts("Disciplina nao encontrada. Entre na opcao 5 do menu para ver os codigos.\n");
 		    		break;
 				}
-				printf(">> Exibindo media %d do aluno %d\nNome: %s\nMedia= %d\n",k,l,aln[l].nome,aln[l].media[k]);
+				printf(">> Exibindo media %d do aluno %d\nNome: %s\nMedia= %f\n",k,l,aln[l].nome,aln[l].media[k]);
 		    	
 				break;
 			
 			case 4:
 			
-				puts("Top 3 Alunos");
+				for(i=0;i<LIM;i++){
+					for(j=0;j<NOTAS;j++){
+						aln[i].mediageral += aln[i].media[j];
+					}	
+				}
+				for(i=0;i<LIM;i++){
+					for(j=i+1;j<LIM;j++){
+						if(aln[i].mediageral> aln[j].mediageral){
+							m = aln[i].mediageral;
+							aln[i].mediageral = aln[j].mediageral;
+							aln[j].mediageral = m;
+						}
+					}
+				}
+				puts("Exibindo Top 3 Alunos");
+				for(i=0;i<3;i++){
+					puts(aln[i].nome);
+				}
 				
 				break;
 				
@@ -98,7 +113,8 @@ int main() {
 		    	puts("Encerrando programa");
 		    	exit(1);
 				break;
-		 	
+		 
+	
 			  	
 		    default :
 		    	puts("Alternativa incorreta Encerrando o programa");
