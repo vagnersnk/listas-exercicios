@@ -9,7 +9,7 @@ O usuário pode efetuar essa consulta quantas vezes desejar.<br>
 O usuário define o peso e  a altura e é calculado o IMC, através da fórmula IMC = peso / altura**2, armazenando esses dados em uma variável da estrutura definida anteriormente.<br>
 6- Elabore um programa utilizando a linguagem C que manipule uma agenda com nome, telefone e endereço de 20 pessoas através de estruturas heterogêneas e, ao final, efetue pesquisas nos nomes armazenados.<br>
 O usuário deverá sempre ser questionado se deseja efetuar outra pesquisa.<br>
-7- Elabore um programa utilizando a linguagem C que armazene o nome, altura e idade de 30 pessoas através do uso de estruturas heterogêneas. Ao final, apresente o nome das pessoas com idade acima da média, a idade média das pessoas com altura inferior a 1,5m e o nome da pessoa mais nova e da mais velha
+7- Elabore um programa utilizando a linguagem C que armazene o nome, altura e idade de 30 pessoas através do uso de estruturas heterogêneas. Ao final, apresente o nome das pessoas com idade acima da média, a idade média das pessoas com altura inferior a 1,5m e o nome da pessoa mais nova e da mais velha.<br>
 8- Elabore um programa utilizando a linguagem C que, através da utilização de estruturas heterogêneas, manipule as seguintes informações de, no máximo, 40 alunos de uma turma: nome, idade e média final nas 6 disciplinas do semestre. O programa deverá, através de um menu, apresentar as seguintes opções ao usuário:<br>
  ❑ Armazenar os dados de um novo aluno. <br>
  ❑ Pesquisar os dados de um aluno pelo nome. <br>
