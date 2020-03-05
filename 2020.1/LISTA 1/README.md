@@ -1,0 +1,1 @@
+9 - Entrar com o número e a base em que se deseja calcular o logaritmo deste número e imprimi-lo.
