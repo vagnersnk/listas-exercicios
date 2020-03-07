@@ -27,7 +27,7 @@ int main(){
 			menor = lj[i].vendas;
 			indicemenor = i;
 		}
-		for(j=0;j<LIM;j++){
+		for(j=i+1;j<LIM;j++){
 			if(lj[i].vendas > lj[j].vendas){
 				aux = lj[i].vendas;
 				lj[i].vendas = lj[j].vendas;
