@@ -1,3 +1,4 @@
+# Estruturas <br>
 1-Criar uma estrutura chamada DadosAluno, que armazena a média e idade de um aluno. Exibir na tela a média e a idade desse aluno.<br> 
 2- Considerando o exercício anterior, criar uma variável que é um vetor da estrutura DadosAluno. O programa deve obter a média e a idade dos 10 alunos.<br>
 Depois, estes dados devem ser exibidos.<br>

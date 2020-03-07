@@ -1,3 +1,4 @@
+# Strings <br>
 1- Imprima uma string de trás pra frente.<br>
 2- Faça um programa que leia uma string do
 teclado e diga se ela é palíndromo, ou seja,
