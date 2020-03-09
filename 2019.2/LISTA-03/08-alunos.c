@@ -20,7 +20,7 @@ struct Alunos{
 int main() {
 	struct Alunos aln[LIM];
 	char pesquisa[30],tmp[30];
-	int i,k,j,l,m=0,pl,count =0;
+	int i,k,j,l,n,m=0,pl,count =0;
 	
 	while(1){
 		puts(">>Menu<<\n1-Inserir aluno\n2-Pesquisar Aluno por nome\n3-Pesquisar media por disciplina\n4-Ver top 3 alunos com maior media\n5-Ver codigos das disciplinas\n6-SAIR\n-------------\n");
@@ -95,6 +95,14 @@ int main() {
 							m = aln[i].mediageral;
 							aln[i].mediageral = aln[j].mediageral;
 							aln[j].mediageral = m;
+							
+							strcpy(tmp,aln[i].nome);
+							strcpy(aln[i],aln[j]);
+							strcpy(aln[j],tmp)	
+							
+							n = aln[i].idade;
+							aln[i].idade = aln[j].idade;
+							aln[j].idade = n;						
 						}
 					}
 				}
