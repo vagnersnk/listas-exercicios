@@ -21,7 +21,7 @@ int main() {
 	struct Funcionarios fnc[LIM];
 	char aux[30];
 	float soma=0,media=0;
-	int i,j,k,count =0,countsal=0;
+	int i,j,k,l,count =0,countsal=0;
 	
 	while(1){
 		puts(">>Menu<<\n1-Inserir funcionario\n2-Pesquisar funcionario  por matricula\n3-Listar funcionarios em ordem alfabetica\n4-Quantidade de funcionarios com salario acima da media\n5-Sair\n-------------\n");
@@ -70,6 +70,11 @@ int main() {
 		    				strcpy(aux,fnc[i].nome);
 		    				strcpy(fnc[i].nome,fnc[j].nome);
 		    				strcpy(fnc[j].nome,aux);
+		    				
+		    				 k = fnc[i].salario;
+		    				 fnc[i].salario = fnc[j].salario;
+		    				 fnc[j].salario = k;
+		    				 
 						}
 					}
 				}
