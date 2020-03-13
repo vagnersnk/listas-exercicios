@@ -14,8 +14,8 @@ segundos.<br>
 
 3 - Faça um programa para receber um número
 inteiro do usuário. Em seguida verifique se ele é:<br>
-– par
-– divisível por três
+– par<br>
+– divisível por três<br>
 – divisível por cinco<br>
 Obs: Crie uma função separada para cada item
 acima.
@@ -54,9 +54,9 @@ devem ser lidas):<br>
 – Imprimir o título dos 10 produtos mais vendidos.<br>
 – Retornar a quantidade de vendas do produto mais barato.<br>
 
-struct Produto{
-char titulo[40];
-int quantidade_vendida;
+struct Produto{<br>
+char titulo[40];<br>
+int quantidade_vendida;<br>
 float preço};<br>
 
 
