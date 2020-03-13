@@ -27,9 +27,9 @@ verdadeiro e ‘0’ para falso.<br>
 4 - Implemente uma função que recebe a média final de
 um aluno por parâmetro e retorna o caractere
 equivalente ao seu conceito, conforme abaixo:<br>
-– 0,0 a 4,9 = Conceito 'D'
-– 5,0 a 6,9 = Conceito 'C'
-– 7,0 a 8,9 = Conceito 'B'
+– 0,0 a 4,9 = Conceito 'D'<br>
+– 5,0 a 6,9 = Conceito 'C'<br>
+– 7,0 a 8,9 = Conceito 'B'<br>
 – 9,0 a 10,0 = Conceito 'A'<br>
 
 5 - Implemente uma função que recebe como parâmetro
