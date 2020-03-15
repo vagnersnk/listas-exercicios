@@ -4,10 +4,9 @@
 
 
 int par_ou_impar(int numero){
-	int i,res=0;
-	 for(i=numero;i>0;i-= 1){
-	 
-	    res = numero-2;
+	int i,res=numero;
+	 for(i=res;res>1;res-=2){
+	    ;
 	  }
 	return res;
 	
