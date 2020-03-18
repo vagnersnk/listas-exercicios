@@ -50,21 +50,13 @@ void venda_mais_barato(struct Produto *in){
 void mais_vendidos_top10(struct Produto *in){
 	int i,j,k;
 	float l;
-	char aux[40];
+	struct Produto aux;
 	for(i =0; i<LIM;i++){
 		for(j=i+1;j<LIM;j++){
 			if(in[i].quantidade_vendida>in[j].quantidade_vendida){
-				strcpy(aux,in[i].titulo);
-				strcpy(in[i].titulo,in[j].titulo);
-				strcpy(in[j].titulo,aux);
-				
-				k= in[i].quantidade_vendida;
-				in[i].quantidade_vendida = in[j].quantidade_vendida;
-				in[j].quantidade_vendida = k;
-				
-				l = in[i].preco;
-				in[i].preco = in[j].preco;
-				in[j].preco = l;
+				aux = in[i];
+				in[i]= in[j];
+				in[j] = aux;
 			}
 		}
 	
