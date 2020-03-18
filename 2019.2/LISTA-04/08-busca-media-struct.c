@@ -14,7 +14,7 @@ struct Produto {
 };
 
 
-void busca_produto(struct Produto *in,char *busca){
+void busca_produto(struct Produto in[],char *busca){
     int i,k;
     for(i=0;i<LIM;i++){
     	k =0;
@@ -29,7 +29,7 @@ void busca_produto(struct Produto *in,char *busca){
 	
 }
 
-void maior_que_p(struct Produto *in,float preco){
+void maior_que_p(struct Produto in[],float preco){
 	int i;
 	printf(">>imprimindo valores maiores que %f\n",preco);
 	for(i=0;i<LIM;i++){
@@ -39,7 +39,7 @@ void maior_que_p(struct Produto *in,float preco){
 	}
 }
 
-int media_quant_vendas(struct Produto *in){
+int media_quant_vendas(struct Produto in[]){
 	int i,soma=0,media=0;
 	for(i = 0 ;i<LIM;i++){
 		soma += in[i].quantidade_vendida;
