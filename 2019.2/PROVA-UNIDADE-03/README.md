@@ -7,6 +7,6 @@ retorne a média aritmética dos números cujo valor é acima de 100.<br>
 4. Implemente uma função que receba como entrada um vetor com 30 valores do tipo
 “struct Pessoa” e imprima os nomes das pessoas, da mais baixa para a mais alta.<br>
 struct Pessoa {<br>
-char Nome[40];<br
+char Nome[40];<br>
 int idade;<br>
 float altura; };<br>
