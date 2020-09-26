@@ -58,7 +58,7 @@ considerando votos válidos, nulos e em branco;<br> percentual correspondente de
 quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato A em relação à
 quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato B em relação à
 quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato C em relação à
-quantidade de eleitores;<br> o percentual correspondente de votos nulos em relação à quantidade de eleitores;<br>
+quantidade de eleitores;<br> o percentual correspondente de votos nulos em relação à quantidade de eleitores:<br>
 e por último o percentual correspondente de votos em branco em relação à quantidade de eleitores.<br><br>
 s) Elaborar um programa que leia dois valores numéricos reais desconhecidos representados pelas
 variáveis A e B. Calcular e apresentar os resultados das quatro operações aritméticas básicas.<br><br>
