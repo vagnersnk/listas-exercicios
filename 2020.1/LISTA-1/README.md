@@ -54,7 +54,7 @@ variáveis A, B e C). Durante a apuração dos votos foram computados votos nulo
 votos válidos para cada candidato. Deve ser criado um programa de computador que faça a leitura da
 quantidade de valos válidos para cada candidato, além disso, ler também a
 quantidade de votos nulos e em branco.<br> Ao final o programa deve apresentar o número total de eleitores,
-considerando votos válidos, nulos e em branco; percentual correspondente de votos válidos em relação à<br>
+considerando votos válidos, nulos e em branco;<br> percentual correspondente de votos válidos em relação à<br>
 quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato A em relação à
 quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato B em relação à
 quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato C em relação à
