@@ -55,10 +55,10 @@ votos válidos para cada candidato. Deve ser criado um programa de computador qu
 quantidade de valos válidos para cada candidato, além disso, ler também a
 quantidade de votos nulos e em branco.<br> Ao final o programa deve apresentar o número total de eleitores,
 considerando votos válidos, nulos e em branco; percentual correspondente de votos válidos em relação à<br>
-quantidade de eleitores; o percentual correspondente de votos válidos do candidato A em relação à<br>
-quantidade de eleitores; o percentual correspondente de votos válidos do candidato B em relação à<br>
-quantidade de eleitores: o percentual correspondente de votos válidos do candidato C em relação à<br>
-quantidade de eleitores: o percentual correspondente de votos nulos em relação à quantidade de eleitores;
+quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato A em relação à
+quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato B em relação à
+quantidade de eleitores;<br> o percentual correspondente de votos válidos do candidato C em relação à
+quantidade de eleitores;<br> o percentual correspondente de votos nulos em relação à quantidade de eleitores;<br>
 e por último o percentual correspondente de votos em branco em relação à quantidade de eleitores.<br><br>
 s) Elaborar um programa que leia dois valores numéricos reais desconhecidos representados pelas
 variáveis A e B. Calcular e apresentar os resultados das quatro operações aritméticas básicas.<br><br>
