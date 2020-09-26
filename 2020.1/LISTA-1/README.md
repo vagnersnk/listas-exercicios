@@ -3,7 +3,7 @@ a) Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahr
 conversão é F = (9 • C + 160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.<br><br>
 b) Ler uma temperatura em graus Fahrenheit e apresentá-la convertida em graus Celsius. A fórmula de
 conversão é C = ((F - 32) * 5) /9, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
-<br>
+<br><br>
 c) Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula VOLUME = 3.14159 *
 R ^2 * ALTURA.<br><br>
 d) Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel
