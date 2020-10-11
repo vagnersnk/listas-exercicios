@@ -16,11 +16,12 @@ pertinente. Como resultado o programa deve exibir na tela: a diferença entre el
 5. Construa um programa que calcule e apresente quanto deve ser pago por um produto considerando a leitura do preço da
 etiqueta (PE) e o código de pagamento (CP). Utilize para os cálculos a tabela de condições de pagamento a seguir:<br>
 
-Código de pagamento Condição de pagamento<br>
-1 À vista em dinheiro ou cheque, com 10% de desconto<br>
-2 À vista com cartão de crédito, com 5% de desconto<br>
-3 Em 2 vezes, preço normal de etiqueta sem juros<br>
-4 Em 3 vezes, preço de etiqueta com acréscimo de 10%<br><br>
+|Código de pagamento Condição de pagamento|
+| ------------- |:-------------:| 
+|1| À vista em dinheiro ou cheque, com 10% de desconto|
+|2| À vista com cartão de crédito, com 5% de desconto|
+|3| Em 2 vezes, preço normal de etiqueta sem juros|
+|4| Em 3 vezes, preço de etiqueta com acréscimo de 10%|
 
 6. Dado o programa abaixo, responda:<br>
 a) Se A= verdade, B= verdade, C= falsidade, quais comandos serão executados?<br>
@@ -68,10 +69,12 @@ informar o prato, a sobremesa e a bebida, conforme tabela abaixo:<br>
 carro deve ser renovado é determinado pelo último número da placa do mesmo. Criar um programa que, a partir da leitura do
 número da placa do carro, informe o mês em que o emplacamento deve ser renovado.<br>
 9. Entrar com o valor de x e imprimir y:
-1, se x&lt;=1<br>
-Y= 2, se 1&lt;x&lt;=2<br>
-x 2 , se 2&lt;x&lt;=3<br>
-x 3 , se x&gt;3<br>
+```
+1, se x<=1
+2, se 1<x<=2
+x² , se 2<x<=3
+x³ , se x>3
+```
 
 10. Ler um número inteiro de 4 casas e imprimir se é ou não múltiplo de quatro o número formado pelos algarismos que estão nas
 casas das unidades de milhar e das centenas.<br><br>
