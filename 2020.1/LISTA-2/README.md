@@ -57,11 +57,12 @@ encadeada.<br><br>
 8. Criar um programa que informe a quantidade total de calorias de uma refeição a partir da escolha do usuário que deverá
 informar o prato, a sobremesa e a bebida, conforme tabela abaixo:<br>
 
-PRATO SOBREMESA BEBIDA<br>
-Vegetariano 180cal Abacaxi 75cal Chá 20cal<br>
-Peixe 230cal Sorvete diet 110cal Suco de laranja 70cal<br>
-Frango 250cal Mousse diet 170cal Refrigerante diet 65cal<br>
-Carne 350cal Bolo de chocolate 200cal Suco de melão 100cal<br>
+| PRATO |  SOBREMESA | BEBIDA |
+| ------------- |:-------------:| -----:|
+|Vegetariano 180cal | Abacaxi 75cal | Chá 20cal |
+|Peixe 230cal |Sorvete diet 110cal| Suco de laranja 70cal|
+|Frango 250cal| Mousse diet 170cal| Refrigerante diet 65cal|
+|Carne 350cal| Bolo de chocolate 200cal| Suco de melão 100cal|
 
 8. A polícia rodoviária resolveu fazer cumprir a lei e cobrar dos motoristas o DUT. Sabe-se que o mês em que o emplacamento do
 carro deve ser renovado é determinado pelo último número da placa do mesmo. Criar um programa que, a partir da leitura do
