@@ -49,7 +49,8 @@ printf(&quot;Comando 6!&quot;);
 system(&quot;PAUSE&quot;);
 return 0;
 
-}```<br>
+}```
+<br>
 7. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. Utilize para tal uma seleção
 encadeada.
 8. Criar um programa que informe a quantidade total de calorias de uma refeição a partir da escolha do usuário que deverá
