@@ -16,7 +16,7 @@ pertinente. Como resultado o programa deve exibir na tela: a diferença entre el
 5. Construa um programa que calcule e apresente quanto deve ser pago por um produto considerando a leitura do preço da
 etiqueta (PE) e o código de pagamento (CP). Utilize para os cálculos a tabela de condições de pagamento a seguir:<br>
 
-|Código de pagamento Condição de pagamento|
+|Código de pagamento| Condição de pagamento|
 | ------------- |:-------------:| 
 |1| À vista em dinheiro ou cheque, com 10% de desconto|
 |2| À vista com cartão de crédito, com 5% de desconto|
