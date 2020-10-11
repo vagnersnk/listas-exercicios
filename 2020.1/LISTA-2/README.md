@@ -49,27 +49,28 @@ printf(&quot;Comando 6!&quot;);
 system(&quot;PAUSE&quot;);
 return 0;
 
-}```
+}
+```
 <br>
 7. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. Utilize para tal uma seleção
-encadeada.
+encadeada.<br><br>
 8. Criar um programa que informe a quantidade total de calorias de uma refeição a partir da escolha do usuário que deverá
-informar o prato, a sobremesa e a bebida, conforme tabela abaixo:
+informar o prato, a sobremesa e a bebida, conforme tabela abaixo:<br>
 
-PRATO SOBREMESA BEBIDA
-Vegetariano 180cal Abacaxi 75cal Chá 20cal
-Peixe 230cal Sorvete diet 110cal Suco de laranja 70cal
-Frango 250cal Mousse diet 170cal Refrigerante diet 65cal
-Carne 350cal Bolo de chocolate 200cal Suco de melão 100cal
+PRATO SOBREMESA BEBIDA<br>
+Vegetariano 180cal Abacaxi 75cal Chá 20cal<br>
+Peixe 230cal Sorvete diet 110cal Suco de laranja 70cal<br>
+Frango 250cal Mousse diet 170cal Refrigerante diet 65cal<br>
+Carne 350cal Bolo de chocolate 200cal Suco de melão 100cal<br>
 
 8. A polícia rodoviária resolveu fazer cumprir a lei e cobrar dos motoristas o DUT. Sabe-se que o mês em que o emplacamento do
 carro deve ser renovado é determinado pelo último número da placa do mesmo. Criar um programa que, a partir da leitura do
-número da placa do carro, informe o mês em que o emplacamento deve ser renovado.
+número da placa do carro, informe o mês em que o emplacamento deve ser renovado.<br>
 9. Entrar com o valor de x e imprimir y:
-1, se x&lt;=1
-Y= 2, se 1&lt;x&lt;=2
-x 2 , se 2&lt;x&lt;=3
-x 3 , se x&gt;3
+1, se x&lt;=1<br>
+Y= 2, se 1&lt;x&lt;=2<br>
+x 2 , se 2&lt;x&lt;=3<br>
+x 3 , se x&gt;3<br>
 
 10. Ler um número inteiro de 4 casas e imprimir se é ou não múltiplo de quatro o número formado pelos algarismos que estão nas
-casas das unidades de milhar e das centenas.
+casas das unidades de milhar e das centenas.<br><br>
