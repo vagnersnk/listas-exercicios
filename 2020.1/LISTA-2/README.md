@@ -29,17 +29,18 @@ c) Se A= falsidade, B= verdade, C= verdade, quais comandos serão executados?<br
 d) Quais os valores de A, B e C para que somente os comandos 5 e 6 sejam executados?<br>
 d) Quais os valores de A, B e C para que somente o comando 6 seja executado?<br>
 
-```#include &lt;stdio.h&gt;<br>
-#include &lt;stdlib.h&gt;<br>
-int main(){<br>
-int A, B, C;<br>
+```
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+int main(){
+int A, B, C;
 if(A){<br>
-printf(&quot;Comando 1!&quot;);<br>
-} else if(B){<br>
-if(C){<br>
-printf(&quot;Comando 2!&quot;);<br>
-}else{<br>
-printf(&quot;Comando 3!&quot;);<br>
+printf(&quot;Comando 1!&quot;);
+} else if(B){
+if(C){
+printf(&quot;Comando 2!&quot;);
+}else{
+printf(&quot;Comando 3!&quot;);
 printf(&quot;Comando 4!&quot;);
 }
 printf(&quot;Comando 5!&quot;);
@@ -48,7 +49,7 @@ printf(&quot;Comando 6!&quot;);
 system(&quot;PAUSE&quot;);
 return 0;
 
-}```
+}```<br>
 7. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. Utilize para tal uma seleção
 encadeada.
 8. Criar um programa que informe a quantidade total de calorias de uma refeição a partir da escolha do usuário que deverá
