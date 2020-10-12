@@ -31,25 +31,28 @@ d) Quais os valores de A, B e C para que somente os comandos 5 e 6 sejam executa
 d) Quais os valores de A, B e C para que somente o comando 6 seja executado?<br>
 
 ```
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-int main(){
-int A, B, C;
-if(A){<br>
-printf(&quot;Comando 1!&quot;);
-} else if(B){
-if(C){
-printf(&quot;Comando 2!&quot;);
-}else{
-printf(&quot;Comando 3!&quot;);
-printf(&quot;Comando 4!&quot;);
-}
-printf(&quot;Comando 5!&quot;);
-}
-printf(&quot;Comando 6!&quot;);
-system(&quot;PAUSE&quot;);
-return 0;
+#include <stdio.h>
+#include <stdlib.h>
 
+
+int main ()
+{
+   int A,B,C;
+  
+   if(A){
+   	printf("Comando 1!");
+   }else if (B){
+   	if(C){
+   		printf("comando 2!");
+	   }else{
+	   	printf("comando 3!");
+	   	printf("comando 4!");
+	   }
+	   printf("comando 5!");
+   }
+   printf("comando 6!");
+   system("PAUSE");
+    return 0;
 }
 ```
 <br>
