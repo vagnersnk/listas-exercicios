@@ -45,7 +45,7 @@ quando o mesmo digita ‘N’. Crie um menu para apresentar as opções ao usuá
 
 10. Construa um programa que apresente a tabuada dos números de 0 a 10, apresentando a
 resposta no seguinte formato:
- 0 * 1 = 0   1 * 1 = 1    10 * 1 = 10<br>
- 0 * 2 = 0   1 * 2 = 2    10 * 2 = 20<br>
- ...            ...         ...      <br>
- 0 * 10 = 0  1 * 10 = 10  10 * 10 = 100<br>
+ |0 * 1 = 0  | 1 * 1 = 1   | 10 * 1 = 10|
+ |0 * 2 = 0  | 1 * 2 = 2   | 10 * 2 = 20|
+ |...        |    ...      |   ...      |
+ |0 * 10 = 0 | 1 * 10 = 10 | 10 * 10 = 100|
