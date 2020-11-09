@@ -22,28 +22,28 @@ Você deve colocar o programa em uma estrutura de repetição perguntando sempre
 mais algum voto a ser realizado, use caractere para a resposta (S/N). Também, coloque em uma
 outra estrutura de repetição o menu com o nome/número dos candidatos, assim como os
 respectivos números para votar em branco ou nulo, enquanto o usuário digitar um valor que
-não esteja dentro desses que são permitidos.<br>
+não esteja dentro desses que são permitidos.<br><br>
 5.Imagine uma brincadeira entre dois colegas, na qual um pensa um número e o outro deve fazer
 chutes até acertar o número imaginado. Como dica, a cada tentativa é dito se o chute foi alto
 ou foi baixo. Elabore um algoritmo dentro deste contexto que leia o número imaginado e os
-chutes, ao final mostre quantas tentativas foram necessárias para descobrir o número.<br>
+chutes, ao final mostre quantas tentativas foram necessárias para descobrir o número.<br><br>
 6. Faça um algoritmo que apresente o somatório dos números primos e ímpares (os dois ao
-mesmo tempo) que estão no intervalo entre 400 e 600.<br>
-6. Repare a seguinte característica do número: 3025:30 + 25 = 55 e 552 = 3025. Criar um
+mesmo tempo) que estão no intervalo entre 400 e 600.<br><br>
+7. Repare a seguinte característica do número: 3025:30 + 25 = 55 e 552 = 3025. Criar um
 algoritmo que possa ler vários números inteiros de 4 algarismos, um de cada vez, e diga se o
 número apresenta a mesma característica (repare que 3025/100=30 com resto 25). O algoritmo
-termina quando for lido um valor menor que 1000 ou maior que 9999.<br>
-7. Faça um algoritmo que converta uma velocidade expressa em km/h para m/s e vice-versa.
+termina quando for lido um valor menor que 1000 ou maior que 9999.<br><br>
+8. Faça um algoritmo que converta uma velocidade expressa em km/h para m/s e vice-versa.
 Você deve criar um menu com as duas opções de conversão e com uma opção para finalizar o
 programa. O usuario poderá fazer quantas conversões desejar, sendo que o programa só será
-finalizado quando a opção de finalizar for escolhida.<br>
-8. Criar um algoritmo em que o usuário digite a opção de calcular o MDC ou o MMC de dois
+finalizado quando a opção de finalizar for escolhida.<br><br>
+9. Criar um algoritmo em que o usuário digite a opção de calcular o MDC ou o MMC de dois
 números inteiros lidos, mostrando o resultado ao final. A interação com o usuário finaliza
-quando o mesmo digita ‘N’. Crie um menu para apresentar as opções ao usuário.<br>
-9. Fazer um algoritmo que calcule e escreva a soma dos 50 primeiros termos da seguinte série:
-(1000)/1  (997)/2  (994)/3  (991)/4 ...
+quando o mesmo digita ‘N’. Crie um menu para apresentar as opções ao usuário.<br><br>
+10. Fazer um algoritmo que calcule e escreva a soma dos 50 primeiros termos da seguinte série:
+(1000)/1  (997)/2  (994)/3  (991)/4 ...<br><br>
 
-10. Construa um programa que apresente a tabuada dos números de 0 a 10, apresentando a
+11. Construa um programa que apresente a tabuada dos números de 0 a 10, apresentando a
 resposta no seguinte formato:
 
 
