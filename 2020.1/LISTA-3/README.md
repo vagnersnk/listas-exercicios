@@ -29,7 +29,7 @@ ou foi baixo. Elabore um algoritmo dentro deste contexto que leia o número imag
 chutes, ao final mostre quantas tentativas foram necessárias para descobrir o número.<br><br>
 6. Faça um algoritmo que apresente o somatório dos números primos e ímpares (os dois ao
 mesmo tempo) que estão no intervalo entre 400 e 600.<br><br>
-7. Repare a seguinte característica do número: 3025:30 + 25 = 55 e 552 = 3025. Criar um
+7. Repare a seguinte característica do número: 3025:30 + 25 = 55 e 55² = 3025. Criar um
 algoritmo que possa ler vários números inteiros de 4 algarismos, um de cada vez, e diga se o
 número apresenta a mesma característica (repare que 3025/100=30 com resto 25). O algoritmo
 termina quando for lido um valor menor que 1000 ou maior que 9999.<br><br>
